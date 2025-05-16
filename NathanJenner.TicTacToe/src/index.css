@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 40px;
+  padding: 0;
+  background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 36px;
+  color: #2d3a4b;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 30px;
+  color: #3b6978;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 26px;
+  color: #204051;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #546e7a;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #607d8b;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #78909c;
+}
+
+code {
+  font-size: 1.3em;
+  background: #f5f2f0;
+  color: #d7263d;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+ul {
+  padding-inline-start: 24px;
+}
+
+.square {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  border: 2px solid #3b6978;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  margin-right: -2px;
+  margin-top: -2px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  color: #204051;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.square:hover {
+  background: linear-gradient(135deg, #43c6ac 0%, #f8ffae 100%);
+  color: #d7263d;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #d7263d;
+  font-weight: bold;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  background: rgba(255,255,255,0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(60,60,60,0.12);
+  padding: 32px;
+}
+
+.game-info {
+  margin-left: 32px;
+  font-size: 20px;
+  color: #204051;
+}
